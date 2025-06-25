@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Structure globale */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* Aucune couleur de fond globale ici : c’est géré dans Layout */
+body {
+  @apply m-0 p-0;
+}
