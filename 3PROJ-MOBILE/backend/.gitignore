@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Env vars
+.env
+.env.*
+
+# Database
+*.sqlite
+*.db
+
+# Uploads
+uploads/
+
+# Build / Output
+dist/
+build/
+coverage/
+*.tmp
+*.bak
+
+# Expo (si jamais il a été lancé dans backend)
+.expo/
+
+# OS / Editor / IDE
+.DS_Store
+.vscode/
+.idea/
